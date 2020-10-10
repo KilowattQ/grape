@@ -1,0 +1,80 @@
+/* SELECTOR TAGS */
+
+body {
+  text-align: center;
+}
+
+textarea {
+  width: 500px;
+  height: 150px;
+}
+
+
+/* CLASSES */
+.top-container {
+  padding: 1% 15%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+
+.text-area-below {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5%;
+}
+
+.characters-remaining {
+  color: white;
+  font-family: Montserrat;
+}
+
+.grapevine {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 3%;
+}
+
+.bottom-container {
+  background-color: #689d4f;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.footer-link {
+  margin: auto 15px auto 15px;
+}
+
+.grape {
+  font-family: Ubuntu;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+/* .download-button {
+  margin: 5% 3% 5% 3%;
+} */
+
+/* ID'S */
+
+#title {
+  /* background-color: #725b7c; */
+  /* background-color: #2e1733; */
+  background-color: #3f2544;
+  padding-bottom: 5%;
+}
+
+#wordCount {
+  color: white;
+  font-family: Montserrat;
+}
+
+#form-control {
+  margin-bottom: 2%;
+}
