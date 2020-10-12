@@ -1,5 +1,4 @@
 /* SELECTOR TAGS */
-
 body {
   text-align: center;
 }
@@ -8,7 +7,6 @@ textarea {
   width: 500px;
   height: 150px;
 }
-
 
 /* CLASSES */
 .top-container {
@@ -23,7 +21,6 @@ textarea {
   padding: 0 18px;
 }
 
-
 .text-area-below {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -34,6 +31,24 @@ textarea {
 .characters-remaining {
   color: white;
   font-family: Montserrat;
+}
+
+.background-grape {
+  position: absolute;
+  margin-left: 280px;
+  margin-top: 300px;
+  transform: rotate(-22.5deg);
+  height: auto;
+  width: 120px;
+}
+
+.background-grape2 {
+  position: absolute;
+  margin-left: 1360px;
+  margin-top: 300px;
+  transform: rotate(22.5deg);
+  height: auto;
+  width: 120px;
 }
 
 .grapevine {
@@ -60,9 +75,7 @@ textarea {
 /* .download-button {
   margin: 5% 3% 5% 3%;
 } */
-
 /* ID'S */
-
 #title {
   /* background-color: #725b7c; */
   /* background-color: #2e1733; */

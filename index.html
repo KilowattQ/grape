@@ -17,13 +17,27 @@
 <body>
   <section id="title">
 
+    <div class="row">
+      <div>
+        <img class="background-grape" src="images/FaintGrape.png" alt="Grape Image">
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div>
+        <img class="background-grape2" src="images/FaintGrape2.png" alt="Grape Image">
+      </div>
+
+    </div>
+
     <div class="top-container">
 
       <!-- Nav Bar -->
 
       <nav class="navbar navbar-expand-lg navbar-dark">
         <!-- <a  class="navbar-brand" href="">Grape</a> -->
-        <img class="logo-image" src="images/grape-image.png" alt="Logo">
+        <img class="logo-image" src="images/grape-image2.png" alt="Logo">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -56,30 +70,42 @@
 
         <div class="form-group">
           <h4 class="text-area-below">Tell a Story and Send it Through the Grapevine</h4>
-          <div style="float:none;margin:auto;">
-            <textarea class = "col-lg-6" id="form-control"  maxlength="300"></textarea>
+          <div style="margin:auto;">
+            <textarea class="col-lg-6" id="form-control" maxlength="300"></textarea>
+
           </div>
 
         </div>
 
       </form>
 
-      <span id="wordCount">300</span> <span class = "characters-remaining">Characters Remaining</span>
+      <span id="wordCount">300</span> <span class="characters-remaining">Characters Remaining</span>
+
+
+
+
+
+
 
       <!-- <p>
         <textarea id="myText" height="500"></textarea>
       </p>
       <p> -->
 
+      <!-- <div class="row">
+        <div>
+          <img class="background-grape float-sm-left" src="images/FaintGrape.png" alt="Grape Image">
+        </div>
 
-
-
-
-
+      </div> -->
 
 
     </div>
-    <button type="button" class="btn btn-success btn-lg grapevine "> <!--<span class="fas fa-comment-alt"></span>--> Grapevine</button>
+
+
+    <button type="button" class="btn btn-success btn-lg grapevine ">
+      <!--<span class="fas fa-comment-alt"></span>--> Grapevine
+    </button>
 
     </div>
 
@@ -98,7 +124,7 @@
 
   <!--JavaScript ------------------------------------>
 
-<!-- Character Countdown Code -->
+  <!-- Character Countdown Code -->
   <script>
     var myText = document.getElementById("form-control");
     var wordCount = document.getElementById("wordCount");
